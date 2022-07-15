@@ -1,0 +1,111 @@
+.main_nav
+{   position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    height: auto;
+    width: 100%;                      
+    grid-template-columns: 1fr 1fr;    
+    background-color: black;
+    z-index: 9;
+ }
+ /* width : 100% for less than 1340 width   */
+.nav_options{
+    
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    user-select: none;
+}
+
+.arrow_class {
+    font-size: 22px;
+    color: whitesmoke;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.nav_list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list li{
+    padding: 10px;
+}
+.nav_list li a{
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav_list li:hover{
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.nav_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    float: right;
+    padding-right: 30px;
+}
+
+.logo{
+    height: 25px;
+}
+
+.dropdown_sign{
+    font-size: 15px;
+    margin: 5px;
+    margin-left: 10px;
+    display: block;
+    color: whitesmoke;
+}
+.dropdown_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown_list li a{
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 12px;
+}
+
+.dropdown {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  .dropdown li {display: inline-block;}
+  .dropdown li:hover .dropdown_list {
+    display: block;
+    animation-name: dropdwn_frame;
+  animation-duration: 1s;
+}
+@keyframes dropdwn_frame {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+}
+  .dropdown_list {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    display: none;
+    padding: 10px;
+
+}
+  .dropdown li ul li { 
+    background: black; 
+    display: block; 
+  }
+  .dropdown_list li a {display:block !important;} 
+  .dropdown_list li:hover {background: #666;}

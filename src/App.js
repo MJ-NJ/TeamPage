@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
-    <div class="Navbar">
+    {/* <div class="Navbar">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"></link>
       <div class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -22,7 +22,9 @@ function App() {
   </div>
 </nav>
         </div>
-      </div>  
+      </div>   */}
+<Navbar />
+      
 <body>
   <div class="box">
       <div class="card">
