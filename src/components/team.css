@@ -8,8 +8,8 @@ max-width: 100%;
 height: auto;
 }
 
-
 .team-page-section{
+background-color: white;
 position:relative;
 padding-top:70px;
 }
@@ -72,7 +72,7 @@ background-color:#bd0000;
 
 .sec-title h2{
 position:relative;
-color:#222222;
+color:black;
 font-weight:700;
 font-size:36px;
 line-height:1.2em;
@@ -286,4 +286,4 @@ background-image: -o-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFEB3C), color-stop(100, #ff9600));
 background-image: -webkit-linear-gradient(top, #FFEB3C 0%, #ff9600 100%);
 background-image: linear-gradient(to bottom, #FFEB3C 0%, #ff9600 100%);
-}
+}   
