@@ -9,7 +9,7 @@ height: auto;
 }
 
 .team-page-section{
-background-color: white;
+background-color: black;
 position:relative;
 padding-top:70px;
 }
@@ -72,7 +72,7 @@ background-color:#bd0000;
 
 .sec-title h2{
 position:relative;
-color:black;
+color:whitesmoke;
 font-weight:700;
 font-size:36px;
 line-height:1.2em;
